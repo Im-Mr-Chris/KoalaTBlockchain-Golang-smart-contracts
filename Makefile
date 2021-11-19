@@ -52,6 +52,10 @@ image: deps
 	@echo "=> Building image"
 	@docker build -t $(IMAGE_REPO):$(VERSION) --build-arg REPO=$(REPO) --build-arg VERSION=$(VERSION) .
 
+image.win: deps
+	@echo "=> Building image"
+	@docker build -f Dockerfile.win -t $(IMAGE_REPO):$(VERSION) --build-arg REPO=$(REPO) --build-arg VERSION=$(VERSION) .
+
 image-latest: deps
 	@echo "=> Building image with 'latest' tag"
 	@docker build -t $(IMAGE_REPO):latest --build-arg REPO=$(REPO) --build-arg VERSION=$(VERSION) .
