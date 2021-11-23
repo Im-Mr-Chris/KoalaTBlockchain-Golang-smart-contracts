@@ -6,16 +6,6 @@
 </p>
 
 <hr />
-
-[![codecov](https://codecov.io/gh/nspcc-dev/neo-go/branch/master/graph/badge.svg)](https://codecov.io/gh/nspcc-dev/neo-go)
-[![CircleCI](https://circleci.com/gh/nspcc-dev/neo-go/tree/master.svg?style=shield)](https://circleci.com/gh/nspcc-dev/neo-go/tree/master)
-[![GithubWorkflows Tests](https://github.com/nspcc-dev/neo-go/actions/workflows/run_tests.yml/badge.svg)](https://github.com/nspcc-dev/neo-go/actions/workflows/run_tests.yml)
-[![GithubWorkflows CodeQL](https://github.com/nspcc-dev/neo-go/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/nspcc-dev/neo-go/actions/workflows/codeql-analysis.yml)
-[![Report](https://goreportcard.com/badge/github.com/nspcc-dev/neo-go)](https://goreportcard.com/report/github.com/nspcc-dev/neo-go)
-[![GoDoc](https://godoc.org/github.com/nspcc-dev/neo-go?status.svg)](https://godoc.org/github.com/nspcc-dev/neo-go)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/nspcc-dev/neo-go?sort=semver)
-![License](https://img.shields.io/github/license/nspcc-dev/neo-go.svg?style=popout)
-
 # Overview
 
 This project aims to be a full port of the original C# [Neo project](https://github.com/neo-project).
@@ -167,15 +157,8 @@ where you can switch on/off and define port. Prometheus is enabled and Pprof is 
 Feel free to contribute to this project after reading the
 [contributing guidelines](CONTRIBUTING.md).
 
-Before starting to work on a certain topic, create an new issue first,
-describing the feature/topic you are going to implement.
 
-# Contact
 
-- [@roman-khimov](https://github.com/roman-khimov) on GitHub
-- [@AnnaShaleva](https://github.com/AnnaShaleva) on GitHub
-- [@fyrchik](https://github.com/fyrchik) on GitHub
-- Reach out to us on the [NEO Discord](https://discordapp.com/invite/R8v48YA) channel
 
 # License
 
