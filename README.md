@@ -5,25 +5,6 @@
   <b>Go</b> Node and SDK for the <a href="https://neo.org">Neo</a> blockchain.
 </p>
 
-<hr />
-# Overview
-
-This project aims to be a full port of the original C# [Neo project](https://github.com/neo-project).
-A complete toolkit for the NEO blockchain, including:
-
-- [Consensus node](docs/consensus.md)
-- [RPC node & client](docs/rpc.md)
-- [CLI tool](docs/cli.md)
-- [Smart contract compiler](docs/compiler.md)
-- [NEO virtual machine](docs/vm.md)
-- [Smart contract examples](examples/README.md)
-- [Oracle service](docs/oracle.md)
-- [State validation service](docs/stateroots.md)
-
-This branch (**master**) is Neo N3-compatible. For the current
-Legacy-compatible version please refer to the [**master-2.x**
-branch](https://github.com/nspcc-dev/neo-go/tree/master-2.x) and releases
-before 0.80.0 (**0.7X.Y** track).
 
 # Getting started
 
